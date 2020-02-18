@@ -39,4 +39,8 @@ print('''知りたい項目の識別コードを入力
 ''',str(thisyear) + '年1月1日から何日目か: 4')
 oprn = input('>>')
 oprn = int(oprn)
+
+#ユーザ関数functionに値を投げ込み
+#ちなみにclassの中のdefはメソッドという
+#ユーザ関数に出力
 function(thisyear, today, oprn)
